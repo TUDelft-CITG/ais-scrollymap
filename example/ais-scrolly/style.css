@@ -103,24 +103,25 @@ h1, h2, h3, h4, h5, h6 {
 #footer {
   width: 100%;
   height: 100vh;
-  background-color: white;
+  background-color: #ccefe8;
   /* min-height: 5vh; */
   /* padding-top: 2vh; */
   /* padding-bottom: 2vh; */
   /* text-align: center; */
   /* line-height: 25px; */
-  /* font-size: 13px; */
+  font-size: 14px;
   text-align: center;
   position: relative;
   z-index: 5;
 }
 
 #footer .top {
-  background-color: white;
+  color: #003844;
+  background-color: #ccefe8;
 }
 
 #footer .top h1 {
-  background-color: white;
+  background-color: #ccefe8;
 }
 
 
