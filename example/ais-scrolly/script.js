@@ -323,7 +323,7 @@ map.on("load", function() {
 
     map.addSource('sluis-emissies', {
         "type": "image",
-        "url": "images/maps/agg_krammer_wemissions.png",
+        "url": "images/maps/png_krammer_co2.png",
         "coordinates": [
             [4.107257385253906, 51.68500886266592],
             [4.248619079589844, 51.68500886266592],
