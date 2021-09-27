@@ -310,7 +310,7 @@ var config = {
             onChapterEnter: [
                 {
                     layer: 'heatmap',
-                    opacity: 1
+                    opacity: 0.8
                 }
             ],
             onChapterExit: [
@@ -839,8 +839,16 @@ var config = {
                 }
             },
             onChapterEnter: [
+                {
+                    layer: 'heatmap',
+                    opacity: 0.8
+                }
             ],
             onChapterExit: [
+                {
+                    layer: 'heatmap',
+                    opacity: 0.8
+                }
             ]
         },
         {
@@ -870,6 +878,10 @@ var config = {
                 {
                     layer: 'sluis-intensiteit',
                     opacity: 0.0
+                },
+                {
+                    layer: 'heatmap',
+                    opacity: 0
                 }
             ]
         },
@@ -890,12 +902,20 @@ var config = {
                 {
                     layer: 'sluis-snelheid',
                     opacity: 0.8
+                },
+                {
+                    layer: 'heatmap',
+                    opacity: 0
                 }
             ],
             onChapterExit: [
                 {
                     layer: 'sluis-snelheid',
                     opacity: 0.0
+                },
+                {
+                    layer: 'heatmap',
+                    opacity: 0
                 }
             ]
         },
@@ -916,6 +936,10 @@ var config = {
                 {
                     layer: 'sluis-emissies',
                     opacity: 0.8
+                },
+                {
+                    layer: 'heatmap',
+                    opacity: 0
                 }
             ],
             onChapterExit: [
