@@ -330,6 +330,14 @@ var config = {
                 bearing: 0.00
             },
             onChapterEnter: [
+                {
+                    layer: 'heatmap',
+                    opacity: 0.8
+                },
+                {
+                    layer: 'nl-grof',
+                    opacity: 0
+                }
             ],
             onChapterExit: [
             ]
@@ -776,7 +784,7 @@ var config = {
                 type: "Feature",
                 geometry: {
                     type: "Point",
-                    coordinates: [6.000, 53.0]
+                    coordinates: [5.9500, 53.0]
                 },
                 properties: {
                     iconSize: [400, 332],
