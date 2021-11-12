@@ -346,9 +346,9 @@ var config = {
             id: '10-datapunten',
             alignment: 'right',
             classes: ['box'],
-            title: '400 miljoen datapunten',
+            title: '4 miljard datapunten',
             image: '',
-            description: 'Op de kaart worden 400 miljoen datapunten weergegeven, die over een periode van vier maanden zijn verzameld. Deze enorme hoeveelheid data kon al eerder worden weergegeven, maar de rekencapaciteit beperkte de resolutie waarmee dit kon worden gedaan, zoals op deze kaart te zien is.',
+            description: 'Op de kaart worden 4 miljard datapunten weergegeven, die over een periode van vier maanden zijn verzameld. Deze enorme hoeveelheid data kon al eerder worden weergegeven, maar de rekencapaciteit beperkte de resolutie waarmee dit kon worden gedaan, zoals op deze kaart te zien is.',
             location: {
                 center: [4.38150, 52.42770],
                 zoom: 7.6,
