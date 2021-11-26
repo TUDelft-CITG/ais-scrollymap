@@ -899,7 +899,7 @@ var config = {
             classes: ['box'],
             title: 'Krammersluizen',
             image: '',
-            description: 'Door naar de scheepssnelheden te kijken is goed te zien hoe de schepen afremmen voor de sluis en als ze uit de sluis komen weer versnellen, en naar de rechterkant van de vaarweg bewegen.',
+            description: 'Door naar de scheepssnelheden te kijken is goed te zien hoe de schepen vaart minderen voor de sluis en als ze uit de sluis komen weer versnellen, en naar de rechterkant van de vaarweg bewegen.',
             location: {
                 center: [4.17058, 51.65794],
                 zoom: 13.5,
