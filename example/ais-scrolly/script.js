@@ -354,6 +354,17 @@ map.on("load", function() {
         .onStepEnter(response => {
             var chapter = config.chapters.find(chap => chap.id === response.element.id);
             response.element.classList.add('active');
+            // turn off all other active elements
+            // convert into a list
+            let activeElements = [...document.querySelectorAll('.active')]
+            activeElements.map(el => {
+                // if not the current element
+                if (el !== response.element) {
+                    // make inactive
+                    el.classList.remove('active')
+                }
+
+            })
             map[chapter.mapAnimation || 'flyTo'](chapter.location);
 
             if (config.showMarkers) {
